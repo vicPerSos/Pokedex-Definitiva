@@ -29,7 +29,6 @@ export class HomeComponent implements OnInit {
       (data: any) => {
         this.resultados = this.pokemonService.processResults(data); // Procesamos los resultados
 
-        // Imprimir las URLs de las imágenes en la consola
         this.resultados.forEach(pokemon => {
           const imageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png`;
           // Verificar si la imagen existe haciendo una solicitud HEAD
