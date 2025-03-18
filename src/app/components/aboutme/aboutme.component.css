@@ -1,0 +1,18 @@
+main {
+    height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: aliceblue;
+}
+
+.btn-primary {
+    background-color: #c74512;
+    border: 2px solid #782f12;
+    color: whitesmoke;
+}
+
+.btn-primary:hover {
+    background-color: #a83d12;
+    border-color: #5e260e;
+}
